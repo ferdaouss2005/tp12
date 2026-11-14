@@ -20,3 +20,10 @@ EXERCICE 3
 
 
 Dans cet exercice, j’ai créé une classe `Tableau` contenant un pointeur dynamique `int* data` et un attribut `taille`. J’ai utilisé un constructeur pour allouer et initialiser dynamiquement le tableau avec `new[]`. J’ai surchargé l’opérateur `[]` pour accéder aux éléments du tableau tout en vérifiant les limites des indices. En cas d’indice invalide, une exception `out_of_range` est lancée et récupérée avec `try` et `catch`. Enfin, j’ai ajouté un destructeur utilisant `delete[]` pour libérer automatiquement la mémoire allouée.
+
+EXERCICE4
+
+<img width="329" height="253" alt="image" src="https://github.com/user-attachments/assets/1de896ec-bec7-4086-86d0-08e04a7f58a6" />
+
+
+Dans cet exercice, j’ai créé une classe `Produit` contenant trois attributs privés : `nom`, `prix` et `quantite`. J’ai ajouté un constructeur paramétré pour initialiser les informations du produit. Ensuite, j’ai surchargé l’opérateur `<<` sous forme d’une fonction amie (`friend`) afin de permettre l’accès aux attributs privés de la classe et d'afficher directement un objet `Produit` avec `cout`. Enfin, dans la fonction `main`, j’ai créé deux produits et affiché leurs informations en utilisant `cout << produit`.
